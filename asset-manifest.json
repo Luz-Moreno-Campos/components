@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.c4da06be.css",
+    "main.js": "/react-gh-pages/static/js/main.ba5fe7d1.js",
+    "static/media/scott-webb-UjupleczBOY-unsplash.jpg": "/react-gh-pages/static/media/scott-webb-UjupleczBOY-unsplash.2ed80d4120ad98883a52.jpg",
+    "static/media/goWild-logo.png": "/react-gh-pages/static/media/goWild-logo.d9370d192e1f1b4430b8.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.c4da06be.css.map": "/react-gh-pages/static/css/main.c4da06be.css.map",
+    "main.ba5fe7d1.js.map": "/react-gh-pages/static/js/main.ba5fe7d1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4da06be.css",
+    "static/js/main.ba5fe7d1.js"
+  ]
+}
