@@ -1,0 +1,274 @@
+@charset "utf-8";
+@import './reset.css';
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-image: url("../assets/media/scott-webb-UjupleczBOY-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: inherit;
+    background-size: inherit;
+    background-position: inherit;
+    filter: blur(8px);
+    z-index: -1;
+
+}
+
+
+h1,
+h2,
+nav a {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    width: 100%;
+    background: transparent;
+    border-bottom: none;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+.header-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header-logo {
+    margin-top: 40px;
+    height: 100px;
+}
+
+.nav-container {
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.nav-menu {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    font-weight: 550;
+    font-size: 2rem;
+    color: #f7f4f4;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-menu a:hover {
+    color: #f77808;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.banner-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.banner-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.banner-content h1 {
+    font-size: 6rem;
+    color: #f77808;
+}
+
+.banner-content h1,
+.nav-menu a,
+.banner-content p,
+.btn.primary,
+.btn.secondary,
+.gallery-header {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.banner-content p {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #f7f4f4;
+}
+
+.banner-buttons {
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.btn {
+    padding: 12px 28px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.6);
+    transition: 0.3s ease-in-out;
+}
+
+.btn.primary {
+    background-color: #f77808;
+    color: white;
+    border: none;
+    transition: 0.3s ease-in-out;
+}
+
+.btn.secondary {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.btn.primary:hover {
+    background-color: #f75a17;
+}
+
+.btn.secondary:hover {
+    background: transparent;
+    color: #f77808;
+    border: 2px solid #f77808;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    width: 90%;
+    margin: 20px auto 100px;
+    padding: 60px 40px;
+ 
+}
+
+.gallery-photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-photo img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(25, 25, 25, 0.6);
+}
+
+.gallery-caption {
+    margin-top: 10px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #ff8025;
+    text-align: center;
+    text-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.gallery-header {
+    color: #f77808;
+    font-size: 4rem;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.gallery-text {
+    color: #f77808;
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding-bottom: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    padding-top: 30px;
+    background: linear-gradient(#b3b3ba, #7f7f88);
+    color: #fafafb;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+.footer-copy {
+    margin-top: 10px;
+    transform: translateY(12px);
+}
+
+
+.slogan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-10px);
+}
+
+
+.footer-title {
+    font-size: 2.8rem;
+    color: #f77808;
+}
+
+
+.footer-text {
+    font-size: 1.8rem;
+}
+
+
+.follow-us {
+    font-size: 2rem;
+    margin-left: 23px;
+}
+
+
+.social-btn {
+    font-size: 3rem;
+    color: #f9f9fb;
+}
+
+
+.social-media-btns {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
