@@ -31,5 +31,5 @@ The site was built using **React**, following a modular component‑based archit
 
 ## 🚀 Demo
 
-You can view a live demo of Go Wild Travel here:
+You can view a live demo of Go Wild Travel here: https://luz-moreno-campos.github.io/components/
 
