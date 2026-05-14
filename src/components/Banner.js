@@ -1,10 +1,11 @@
 import Button from './Button';
+import  bannerVideo  from "../assets/media/banner-video.mp4"
 
 function Banner(props) {
   return (
     <section className="banner">
       <video className="banner-video" autoPlay loop muted playsInline>
-        <source src="/media/banner-video.mp4" type="video/mp4" />
+        <source src={bannerVideo} type="video/mp4" />
       </video>
       <div className="banner-content">
         <h1>{props.title}</h1>

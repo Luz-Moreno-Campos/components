@@ -29,7 +29,7 @@ The site was built using **React**, following a modular component‑based archit
 - **Footer**  
   Includes brand messaging, social media presence, and corporate identity elements.
 
-  ## 🚀 Demo
+## 🚀 Demo
 
 You can view a live demo of Go Wild Travel here:
 
